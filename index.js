@@ -2,10 +2,9 @@ const os = require('os');
 let res1 = os.platform();
 const { getProducts } = require('./app');
 console.log(res1);
-/*function addNumber(num1, num2) {
-    let res = num1 + num2;
-    console.log(res);
-}*/
+//console.log(getProducts());
 
-console.log(getProducts());
+const simple = require('./simple');
+let res3 = simple.addNumber(2,5);
+console.log(res3);
 console.log('End');
