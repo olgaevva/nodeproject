@@ -12,4 +12,4 @@ async function getProducts() {
 	const product = await productResponse.json();
 	console.log(product);
 }
-module.exports = {getProducts};
+getProducts();
